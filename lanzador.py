@@ -11,7 +11,7 @@ from controlador.controlador import Controlador
 def main():
     
     # Pantallas de alta resolución
-    # ctypes.windll.shcore.SetProcessDpiAwareness(1)
+    ctypes.windll.shcore.SetProcessDpiAwareness(1)
 
     # Creamos ventana de carga
     ventana = VentanaCarga()
